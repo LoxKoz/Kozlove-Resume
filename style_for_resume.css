@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*Tag Name*/
+body {
+    background: #bab1d6c4;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 40px 25px 30px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #5301e9;
+}
+
+a:visited {
+color: blueviolet;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto; 
+    padding-top: 30px;
+}
+
+.foto {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+.info {
+    text-align: center;
+    display: block;
+}
+}
+
+.info p{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin: 0;
+} 
+
+.info_text {
+    margin-left: 40px;
+}
+
+.links {
+    text-align: center;
+}
+
+.info_text h1 {
+text-align: center;
+}
+
+.info_text h4 {
+    margin-bottom: 7px;
+text-align: center;
+}
+
+.hobby{
+    color: #2b0178;
+    background:#c3e5a5b0; 
+    border-radius: 20px;
+    padding: 15px 40px 25px 30px;
+    border: 4px solid lightsalmon;
+    margin: 10px;
+    margin-bottom: 20px;
+
+}
+
+.avto{
+    color: #2b0178;
+    background: #f1d2d6db;  
+    border-radius: 20px;  
+    padding: 15px 40px 25px 30px;
+    border: 4px solid lightsalmon;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.work{
+    color: #2b0178;
+    background: #d8dda6;  
+    border-radius: 20px;
+    padding: 15px 40px 25px 30px;
+    border: 4px solid lightsalmon;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: darkslategray;
+    padding: 15px 20px;
+    color: antiquewhite;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover {
+    opacity: .8;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 7px;
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color:#2b0178;
+}
+
+.write_me h3 {
+    text-align: center;
+}
+
+.form label {
+display: block;
+}
+
+.form input,
+form textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    color: darkslateblue;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form:last-child {
+margin-right: 0;
+}
